@@ -1,0 +1,20 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "Firebase Firestore Tutorial from Net Nijna  https://github.com/iamshaunjp/firebase-firestore-playlist/tree/master https://www.youtube.com/watch?v=UFLvSp4Mh9k&list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB&index=2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nzaleski/firebase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nzaleski/firebase/issues"
+  },
+  "homepage": "https://github.com/Nzaleski/firebase#readme"
+}
