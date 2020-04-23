@@ -17,6 +17,16 @@ const renderCafe = function(doc) {
     li.appendChild(cross)
 
     cafeList.appendChild(li)
+
+    cross.addEventListener('click', e => {
+        e.stopPropagation()
+        let id = e.target.parentElement.getAttribute('data-id')
+        db.collection('cafes').doc(id).delete().then(function(){
+            console.log('deleted')
+        }).catch(function(err){
+            console.log(err)
+        })
+    })
 }
 
 
